@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_memo_change.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\menu\\menu_memo_change.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_memo_input.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\menu\\menu_memo_input.xml"
+    }
+]

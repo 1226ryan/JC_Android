@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cnwlc.project_memo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustResize" >
+        <activity
+            android:name="com.example.cnwlc.project_memo.LoadingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoadingThema" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cnwlc.project_memo.LoginActivity" />
+        <activity android:name="com.example.cnwlc.project_memo.LoginRegisterActivity" />
+        <activity android:name="com.example.cnwlc.project_memo.MemoMainActivity" />
+        <activity android:name="com.example.cnwlc.project_memo.MemoInputActivity" />
+        <activity android:name="com.example.cnwlc.project_memo.MemoChangeActivity" />
+        <activity android:name="com.example.cnwlc.project_memo.DrawActivity" />
+        <activity android:name="com.example.cnwlc.project_memo.AlarmMain" />
+        <activity android:name="com.example.cnwlc.project_memo.Timer_CountDown" />
+        <activity android:name="com.example.cnwlc.project_memo.OneToFifty" />
+        <activity android:name="com.example.cnwlc.project_memo.GameActivity" />
+        <activity
+            android:name="com.example.cnwlc.project_memo.Snake"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <receiver android:name="com.example.cnwlc.project_memo.AlarmReceive" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.cnwlc.project_memo.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

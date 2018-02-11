@@ -1,0 +1,4 @@
+#Thu Feb 08 22:46:53 KST 2018
+base.0=G\:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

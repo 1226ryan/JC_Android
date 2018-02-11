@@ -1,0 +1,7 @@
+#Wed Sep 20 16:56:36 KST 2017
+base.0=G\:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8629dc340c5f3c9f50fc6650ff09d687ad7b3cee
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=G\:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_16ec63f463e64f891334fdd05c391a948ef510ff\\classes.dex
+base.1=G\:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_16ec63f463e64f891334fdd05c391a948ef510ff
+file.0=G\:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8629dc340c5f3c9f50fc6650ff09d687ad7b3cee\\classes.dex

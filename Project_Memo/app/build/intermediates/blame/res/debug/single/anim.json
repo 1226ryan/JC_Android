@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_add.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_add.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_add_reverse.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_add_reverse.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_list_change.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_list_change.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_list_item.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_list_item.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_list_delete.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_list_delete.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_camera.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_camera.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_list_delete_dialog.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_list_delete_dialog.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_draw.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_draw.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\up_from_bottom.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\up_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_gallery.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_gallery.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_draw_reverse.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_draw_reverse.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\down_from_top.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\down_from_top.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_input.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_input.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_slide_down.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_slide_down.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_list_delete_cancel.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_list_delete_cancel.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_cancel_reverse.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_cancel_reverse.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_camera_reverse.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_camera_reverse.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_gallery_reverse.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_gallery_reverse.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_cancel.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_cancel.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_list_change_finish.xml",
+        "source": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\src\\main\\res\\anim\\anim_list_change_finish.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "G:\\teamNova\\2-2.Android_2\\Project_Memo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\cnwlc\\.android\\build-cache\\a453c7665751e5e830679b7d6ef61db9feb7cbc2\\output\\res\\anim\\abc_popup_exit.xml"
+    }
+]
