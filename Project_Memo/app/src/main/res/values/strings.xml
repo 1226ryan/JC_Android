@@ -1,0 +1,13 @@
+<resources>
+    <string name="mode_ready">Snake\nPress Up To Play</string>
+    <string name="mode_pause">Paused\nPress Up To Resume</string>
+    <string name="mode_lose_prefix">Game Over\nScore: </string>
+    <string name="mode_lose_suffix">\nPress Up To Play</string>
+    <string name="str1">점수: </string>
+    <string name="str2"/>
+    <string name="str3">속도: </string>
+    <string name="str4"/>
+
+    <string name="snake_layout_text_text"/>
+    <string name="app_name">메모장</string>
+</resources>

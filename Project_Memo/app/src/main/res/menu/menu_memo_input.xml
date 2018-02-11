@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_store"
+        android:title="저장"
+        app:showAsAction="always"
+        ></item>
+
+    <item android:id="@+id/action_cancel"
+        android:title="취소"
+        app:showAsAction="always"
+        ></item>
+
+    <!--<item-->
+        <!--android:title="구글검색"-->
+        <!--android:id="@+id/action_internet"></item>-->
+
+    <!--<item-->
+        <!--android:title="글씨크기"-->
+        <!--android:id="@+id/action_size"></item>-->
+
+    <!--<item-->
+        <!--android:title="글씨색깔"-->
+        <!--android:id="@+id/action_color"></item>-->
+
+    <!--<item-->
+        <!--android:title="설정"-->
+        <!--android:id="@+id/action_setting"></item>-->
+
+</menu>
