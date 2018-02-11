@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_change"
+        android:title="수정"
+        app:showAsAction="always"></item>
+
+    <item android:id="@+id/action_store"
+        android:title="저장"
+        app:showAsAction="always"
+        ></item>
+
+    <item android:id="@+id/action_cancel"
+        android:title="취소"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:title="인터넷검색"
+        android:id="@+id/action_internet"></item>
+
+    <item android:title="공유">
+        <menu>
+            <item
+                android:id="@+id/action_title_contents"
+                android:title="제목/내용" />
+            <item
+                android:id="@+id/action_screenshot"
+                android:title="스크린샷" />
+        </menu>
+    </item>
+
+    <!--<item-->
+        <!--android:title="설정"-->
+        <!--android:id="@+id/action_setting"></item>-->
+
+</menu>

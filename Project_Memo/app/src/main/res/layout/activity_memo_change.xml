@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/contentsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:autoLink="all"
+        android:ems="10"
+        android:inputType="textMultiLine|textPersonName"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/contentsEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textPersonName"
+        android:privateImeOptions="defaultInputmode = korean"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/CimgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/contentsEdit"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitCenter" />
+
+
+    <ImageButton
+        android:id="@+id/imgAddBtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="#00000000"
+        android:filterTouchesWhenObscured="true"
+        android:fitsSystemWindows="false"
+        android:onClick="mOnClick"
+        android:soundEffectsEnabled="false"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <ImageButton
+        android:id="@+id/imgCancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imgAddBtn"
+        android:layout_marginBottom="20dp"
+        android:background="#00000000"
+        android:onClick="mOnClick"
+        android:src="@android:drawable/ic_notification_clear_all"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imgCameraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgAddBtn"
+        android:layout_alignStart="@+id/imgAddBtn"
+        android:background="#00000000"
+        android:filterTouchesWhenObscured="true"
+        android:fitsSystemWindows="false"
+        android:onClick="mOnClick"
+        android:soundEffectsEnabled="false"
+        android:src="@android:drawable/ic_menu_camera"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imgGalleryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/imgAddBtn"
+        android:background="#00000000"
+        android:filterTouchesWhenObscured="true"
+        android:fitsSystemWindows="false"
+        android:onClick="mOnClick"
+        android:soundEffectsEnabled="false"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imgDrawBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/imgAddBtn"
+        android:background="#00000000"
+        android:onClick="mOnClick"
+        android:src="@android:drawable/ic_menu_edit"
+        android:visibility="gone" />
+
+</RelativeLayout>

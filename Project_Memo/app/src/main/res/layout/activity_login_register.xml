@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="MemberShip"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/idEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pwEdit"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="Id"
+        android:inputType="textVisiblePassword" />
+
+    <EditText
+        android:id="@+id/pwEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pwEdit2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="Password/4자리이상"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/pwEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:hint="PasswordConfirm"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="완료" />
+
+    <Button
+        android:id="@+id/noBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/okBtn"
+        android:layout_alignBottom="@+id/okBtn"
+        android:layout_toEndOf="@+id/okBtn"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="취소" />
+
+    <Button
+        android:id="@+id/IDcheckBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/idEdit"
+        android:layout_alignEnd="@+id/pwEdit"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="중복확인" />
+
+    <EditText
+        android:id="@+id/cellphoneEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pwEdit2"
+        android:layout_below="@+id/pwEdit2"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/cellphoneBtn"
+        android:ems="10"
+        android:hint="Cellphone"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/cellphoneBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pwEdit2"
+        android:layout_below="@+id/pwEdit2"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="번호인증" />
+
+    <EditText
+        android:id="@+id/certificationEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cellphoneEdit"
+        android:layout_below="@+id/cellphoneEdit"
+        android:layout_toStartOf="@+id/cellphoneBtn"
+        android:ems="10"
+        android:hint="Certification Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/certificationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/certificationEdit"
+        android:layout_toEndOf="@+id/certificationEdit"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="인증확인" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cellphoneEdit"
+        android:layout_alignEnd="@+id/cellphoneBtn"
+        android:layout_alignStart="@+id/pwEdit2"
+        android:gravity="end"
+        android:text="핸드폰 번호는 - 없이 숫자만 입력해주세요."
+        android:textColor="#ff0000ff"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
