@@ -1,29 +1,46 @@
 package com.example.cnwlc.test_paging;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TabHost;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
+
+/**
+ * http://sharp57dev.tistory.com/9 참고
+ */
 public class MainActivity extends AppCompatActivity implements AbsListView.OnScrollListener {
 
-    private ListView listView;                      // 리스트뷰
-    private boolean lastItemVisibleFlag = false;    // 리스트 스크롤이 마지막 셀(맨 바닥)로 이동했는지 체크할 변수
-    private List<String> list;                      // String 데이터를 담고있는 리스트
-    private ListViewAdapter adapter;                // 리스트뷰의 아답터
+//    private ListView listView;                      // 리스트뷰
+//    private List<String> list;                      // String 데이터를 담고있는 리스트
+//    private ListViewAdapter adapter;                // 리스트뷰의 아답터
+
+    ArrayList<ListViewItem> arrayList = new ArrayList<>();      // ListViewItem 데이터를 담고 있는 어레이리스트
+    ListViewAdapter adapter;        // 리스트뷰 어댑터
+    ListView listView;              // 리스트뷰
+    ListViewItem li;                // 리스트 아이템에 대한 값을 담을 리스트아이템
+    String format;                  // 날짜를 담을 변수
+    String Simportance = "중";
+
     private int page = 0;                           // 페이징변수. 초기 값은 0 이다.
     private final int OFFSET = 15;                  // 한 페이지마다 로드할 데이터 갯수.
+
     private ProgressBar progressBar;                // 데이터 로딩중을 표시할 프로그레스바
     private boolean mLockListView = false;          // 데이터 불러올때 중복안되게 하기위한 변수
+    private boolean lastItemVisibleFlag = false;    // 리스트 스크롤이 마지막 셀(맨 바닥)로 이동했는지 체크할 변수
 
     String[] label_ba = new String[50];
     int label_length = label_ba.length;
@@ -32,22 +49,34 @@ public class MainActivity extends AppCompatActivity implements AbsListView.OnScr
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        listView = (ListView) findViewById(R.id.listview);
-        progressBar = (ProgressBar) findViewById(R.id.progressbar);
-
-        list = new ArrayList<String>();
-        adapter = new ListViewAdapter(this, list);
-        listView.setAdapter(adapter);
-
-        progressBar.setVisibility(View.GONE);
-
-        listView.setOnScrollListener(this);
         variable();
         getItem();
     }
 
     void variable() {
+//        listView = (ListView) findViewById(R.id.listview);
+        progressBar = (ProgressBar) findViewById(R.id.progressbar);
+//
+//        list = new ArrayList<String>();
+//        adapter = new ListViewAdapter(this, list);
+//        listView.setAdapter(adapter);
+//
+        progressBar.setVisibility(View.GONE);
+//
+//        listView.setOnScrollListener(this);
+
+
+        listView = (ListView) findViewById(R.id.listview);
+        adapter = new ListViewAdapter(this, arrayList);
+        listView.setAdapter(adapter);
+        listView.setOnScrollListener(this);
+
+        // 날짜 정의
+        long now = System.currentTimeMillis();
+        Date date = new Date(now);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd \n HH:mm");
+        format = sdf.format(date);
+
         for (int i = 0; i < 50; i++) {
             label_ba[i] = "Label " + (i+1);
         }
@@ -60,6 +89,7 @@ public class MainActivity extends AppCompatActivity implements AbsListView.OnScr
         });
     }
 
+    // 스크롤 함수
     @Override
     public void onScrollStateChanged(AbsListView absListView, int scrollState) {
         // 1. OnScrollListener.SCROLL_STATE_IDLE : 스크롤이 이동하지 않을때의 이벤트(즉 스크롤이 멈추었을때).
@@ -81,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements AbsListView.OnScr
             }
         }
     }
-
+    // 스크롤 함수2
     @Override
     public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
         // firstVisibleItem : 화면에 보이는 첫번째 리스트의 아이템 번호.
@@ -91,6 +121,7 @@ public class MainActivity extends AppCompatActivity implements AbsListView.OnScr
         lastItemVisibleFlag = (totalItemCount > 0) && (firstVisibleItem + visibleItemCount >= totalItemCount);
     }
 
+    // 첫 시작과 스크롤 시 받아올 함수
     private void getItem() {
         mLockListView = true;
 
@@ -99,14 +130,18 @@ public class MainActivity extends AppCompatActivity implements AbsListView.OnScr
 
         if (label_length > 15) {
             for (int i = label_length - 1; i >= label_length - OFFSET; i--) {
+                li = new ListViewItem(label_ba[i], format, Simportance);
 //            String label = "Label " + ((page * OFFSET) + i);
-                list.add(label_ba[i]);
+//                list.add(label_ba[i]);
+                arrayList.add(li);
             }
             label_length = label_length - 15;
         } else {
             for (int i = label_length-1; i >= 0; i--) {
+                li = new ListViewItem(label_ba[i], format, Simportance);
 //            String label = "Label " + ((page * OFFSET) + i);
-                list.add(label_ba[i]);
+//                list.add(label_ba[i]);
+                arrayList.add(li);
             }
             label_length = 0;
         }

@@ -1,12 +1,18 @@
 package com.example.cnwlc.test_paging;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -14,47 +20,60 @@ import java.util.List;
  */
 
 public class ListViewAdapter extends BaseAdapter {
-    private LayoutInflater inflate;
-    private ViewHolder viewHolder;
-    private List<String> list;
 
-    public ListViewAdapter(Context context, List<String> list){
-        // MainActivity 에서 데이터 리스트를 넘겨 받는다.
-        this.list = list;
-        this.inflate = LayoutInflater.from(context);
+    private Context context;
+    // listDatas은 기존의 데이터이며 filteredItemList는 필터링된 리스트뷰의 내용을 담는다.
+    // 초기(검색을 하지 않은 상태)에서는 기존의 listDatas로 초기화 해준다.
+    private ArrayList<ListViewItem> listDatas = new ArrayList<>();
+
+    public ListViewAdapter(Context context, ArrayList<ListViewItem> listDatas) {
+        this.context = context;
+        this.listDatas = listDatas;
     }
+
+    // 리스트 뷰의 전체 아이템의 수
     @Override
     public int getCount() {
-        return list.size();
+        return listDatas.size();
     }
 
+    // 리스트뷰의 포지션에 맞는 아이템을 보여줌
     @Override
-    public Object getItem(int i) {
-        return null;
+    public Object getItem(int position) {
+        return listDatas.get(position);
     }
 
+    // 리스트뷰의 포지션에 맞는 아이템의 아이디를 보여줌
     @Override
-    public long getItemId(int i) {
-        return 0;
+    public long getItemId(int position) {
+        return position;
     }
 
+    class ViewHolder {
+        TextView t1;
+        TextView t3;
+        TextView t4;
+    }
+    // data set안에 특정 position의 data가 있는 View를 얻는 것이며, 아이템과 xml을 연결하여 화면에 표시해주는 부분.
     @Override
-    public View getView(int position, View convertView, ViewGroup viewGroup) {
-        if(convertView == null){
-            convertView = inflate.inflate(R.layout.item_list,null);
-            viewHolder = new ViewHolder();
-            viewHolder.label = (TextView) convertView.findViewById(R.id.label);
-            convertView.setTag(viewHolder);
-        }else{
-            viewHolder = (ViewHolder)convertView.getTag();
-        }
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder holder;
+        if (convertView == null) {
+            convertView = LayoutInflater.from(context).inflate(R.layout.item_list, null);
 
-        // 각 셀에 넘겨받은 텍스트 데이터를 넣는다.
-        viewHolder.label.setText( list.get(position) );
+            holder = new ViewHolder();
+            holder.t1 = (TextView) convertView.findViewById(R.id.titleView);
+            holder.t3 = (TextView) convertView.findViewById(R.id.dailyView);
+            holder.t4 = (TextView) convertView.findViewById(R.id.impView);
+            convertView.setTag(holder);
+        } else
+            holder = (ViewHolder) convertView.getTag();
+
+
+        holder.t1.setText(listDatas.get(position).getStitle());
+        holder.t3.setText(listDatas.get(position).getSdaily());
+        holder.t4.setText(listDatas.get(position).getSimport());
+
         return convertView;
-    }
-
-    class ViewHolder{
-        public TextView label;
     }
 }
