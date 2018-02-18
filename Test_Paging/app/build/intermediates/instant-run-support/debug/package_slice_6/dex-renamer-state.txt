@@ -1,0 +1,4 @@
+#Sun Feb 18 16:08:21 KST 2018
+base.0=G\:\\teamNova\\2-2.Android_2\\Test_Paging\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
