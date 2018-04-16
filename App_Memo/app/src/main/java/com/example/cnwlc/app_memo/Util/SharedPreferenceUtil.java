@@ -3,7 +3,7 @@ package com.example.cnwlc.app_memo.Util;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.example.cnwlc.app_memo.MemoApplication;
+import com.example.cnwlc.app_memo.Common.MemoApplication;
 
 public class SharedPreferenceUtil {
     final static MemoApplication app = MemoApplication.getInstance();

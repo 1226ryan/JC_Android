@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/gray"
+                android:background="@color/button_color"
                 android:gravity="center"
                 android:text="@string/yes"
                 android:textSize="20dp" />
@@ -54,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/gray"
+                android:background="@color/button_color"
                 android:gravity="center"
                 android:text="@string/no"
                 android:textSize="20dp" />

@@ -1,4 +1,8 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+// 코틀린 안드로이드 익스텐션을 이 모듈에 적용합니다.
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 27
@@ -16,6 +20,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main.java.srcDir('src/main/kotlin')
+    }
 }
 
 dependencies {
@@ -27,6 +34,15 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     // butterknife
-    compile 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    // title bar 배경 없애기
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+
+    // kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

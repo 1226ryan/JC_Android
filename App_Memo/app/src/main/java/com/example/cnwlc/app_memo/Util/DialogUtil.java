@@ -102,7 +102,6 @@ public class DialogUtil extends AlertDialog {
 //    private View.OnClickListener yesLogOut = new View.OnClickListener() {
 //        public void onClick(View v) {
 //            RemoveUtil.startSplashActivity(LogoutActivity.this);
-//            BottomNavigationBaseActivity.oldId = -1;    //캐싱에 대한 문제때문에 oldId를 초기화
 //
 //            Toast.makeText(getApplicationContext(), getString(R.string.LogoutActivity_1), Toast.LENGTH_SHORT).show();
 //            dialogUtil.dismiss();
