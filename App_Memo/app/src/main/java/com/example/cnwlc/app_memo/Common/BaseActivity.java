@@ -48,12 +48,13 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
     }
 
-    private void checkNetworkStatus() {}
+    private void checkNetworkStatus() {
+    }
 
     protected abstract int getContentViewId();
 
     @Override
     public void onBackPressed() {
-            backPressClose.onBackPressed();
+        backPressClose.onBackPressed();
     }
 }

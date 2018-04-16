@@ -17,7 +17,7 @@ public class MemoApplication extends Application {
     }
 
 
-    public String userId;
+    public static String userId;
     public static boolean DEBUG;
 
     @Override
