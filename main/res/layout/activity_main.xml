@@ -1,89 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <GridLayout
+    <Button
+        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:columnCount="3"
-        android:layout_marginBottom="50dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="50dp">
+        android:text="kotlin" />
 
-        <Button
-            android:id="@+id/btn_1"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
+    <Button
+        android:id="@+id/another2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn"
+        android:text="another2" />
 
-        <Button
-            android:id="@+id/btn_2"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
+    <Button
+        android:id="@+id/permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/another2"
+        android:text="permission" />
 
-        <Button
-            android:id="@+id/btn_3"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
+    <Button
+        android:id="@+id/single_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"
+        android:text="single_selection" />
 
-        <Button
-            android:id="@+id/btn_4"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
+    <Button
+        android:id="@+id/max_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/single_selection"
+        android:text="max_selection" />
 
-        <Button
-            android:id="@+id/btn_5"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
+    <Button
+        android:id="@+id/multi_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/max_selection"
+        android:text="multi_selection" />
 
-        <Button
-            android:id="@+id/btn_6"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/multi_selection">
 
-        <Button
-            android:id="@+id/btn_7"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp" />
 
-        <Button
-            android:id="@+id/btn_8"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
-
-        <Button
-            android:id="@+id/btn_9"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
-
-        <Button
-            android:id="@+id/btn_11"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
-
-        <Button
-            android:id="@+id/btn_10"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
-
-        <Button
-            android:id="@+id/btn_12"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:layout_gravity="center_horizontal|center_vertical" />
-
-    </GridLayout>
-</LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>
