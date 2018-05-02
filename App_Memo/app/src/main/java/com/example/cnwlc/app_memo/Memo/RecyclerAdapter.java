@@ -78,10 +78,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Item singleItem = (Item) arrayListItem.get(position);
-        holder.tvTitle.setText(singleItem.getsTitle());
-        holder.tvImport.setText(singleItem.getsImport());
-        holder.tvDaily.setText(singleItem.getsDaily());
+        holder.tvTitle.setText(arrayListItem.get(position).getsTitle());
+        holder.tvImport.setText(arrayListItem.get(position).getsImport());
+        holder.tvDaily.setText(arrayListItem.get(position).getsDaily());
     }
 
     @Override

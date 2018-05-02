@@ -2,6 +2,8 @@ package com.example.cnwlc.app_memo.Common;
 
 import android.util.Log;
 
+import com.example.cnwlc.app_memo.MemoApplication;
+
 public class Dlog {
     static final String TAG = MemoApplication.class.getSimpleName();
 

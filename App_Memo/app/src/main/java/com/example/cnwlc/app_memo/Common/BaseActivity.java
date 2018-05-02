@@ -13,7 +13,6 @@ import butterknife.ButterKnife;
 
 public abstract class BaseActivity extends AppCompatActivity {
     private BackPressClose backPressClose;
-    private MemoApplication instance;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -21,7 +20,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         setContentView(getContentViewId());
         ButterKnife.bind(this);
 
-        instance = (MemoApplication) this.getApplicationContext();
         backPressClose = new BackPressClose(this);
 
         setVersionCompatibility();

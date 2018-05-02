@@ -2,9 +2,8 @@ package com.example.cnwlc.app_memo.Util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
-import com.example.cnwlc.app_memo.Common.MemoApplication;
+import com.example.cnwlc.app_memo.MemoApplication;
 
 public class SharedPreferenceUtil {
     private static Context context;
