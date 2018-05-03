@@ -36,12 +36,13 @@ public class Adapter extends PagerAdapter {
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = inflater.inflate(R.layout.slider, container, false);
+
         ImageView imageView = (ImageView) v.findViewById(R.id.imageView);
         TextView textView = (TextView) v.findViewById(R.id.textView);
+
         imageView.setImageResource(images[position]);
         textView.setText((position + 1) + "번째 이미지입니다.");
         container.addView(v);
-
         return v;
     }
 
