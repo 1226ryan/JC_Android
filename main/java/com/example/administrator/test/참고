@@ -1,0 +1,2 @@
+1. layout 색 반전(흰색 바탕화면에서 검은색으로 나타내기) : value -> style -> <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"> -> <style name="AppTheme" parent="Theme.AppCompat"> 로 변경
+
