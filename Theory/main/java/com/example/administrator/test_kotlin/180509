@@ -1,0 +1,72 @@
+RxJava
+------------------------------------------------
+1장 - 리액티브 프로그래밍 소개
+
+**리액티브 프로그래밍은 데이터 흐름과 전달에 관한 프로그래밍 패러다임
+명령형 프로그램 방식은 변경이 발생했다는 통지를 받아서 연말 매출액을 새로 계산하는 당겨오는(PULL) 방식이지만, 리액티브 프로그래밍은 데이터 소스가 변경된 데이터를 밀어주는(PUSH) 방식 => 일종의 "옵서버 패턴"
+
+예를 들면, 엑셀에서 연간 매출액(= 1월매출 + 2월매출...+12월매출)을 계산하는데, 2월과 8월 매출액이 변경되었다면, 변경된 매출액을 다시 가져와서 총합을 구하는 방식이 아니라,
+매월 매출액으로 지정해놓은 "데이터 소스"에서 변경된 값을 전달하는 방식.
+
+즉, Model 의 값에 변화가 생겼을 때 View 에 자동으로 업데이트 해주는 목적이며, 내가 어떤 기능을 직접 실행하는 것이 아니라 시스템에 어떤 이벤트가 발생했을 때 처리하는 것.
+
+자바 언어(객체지향언어)와 리액티브 프로그래밍은 두 가지 관계가 있다고 정리
+1. 기존 pull 방식의 프로그래밍 개념을 push 방식의 프로그래밍 개념을 바꾼다.
+2. 함수형 프로그래밍의 지원을 받는다.
+
+reactive programming 은 "데이터 흐름"과 "변화의 전달"에 관한 프로그래밍 패러다임.
+
+위키 백과사전 정의 ******중요*****
+It is convenient to distinguish roughly between three kinds of computer programs.
+Transformational programs compute results from a given set of inputs; typical examples are compilers or numerical computation programs.
+Interactive programs interact at their own speed with users or with other programs; from a user point of view, a time-sharing system is interactive.
+Reactive programs also maintain a continuous interaction with their environment, but at a speed which is determined by the environment, not the program itself.
+Interactive programs work at their own pace and mostly deal with communication, while reactive programs only work in response to external demands and mostly deal with accurate interrupt handling.
+Real-time programs are usually reactive. However, there are reactive programs that are not usually considered as being real-time, such as protocols, system drivers, or man-machine interface handlers.
+
+대략 세 종류의 컴퓨터 프로그램을 구별하는 것은 편리하다.
+첫번째는, 변환 프로그램으로 주어진 입력 값을 바탕으로 결과를 계산하는 프로그램입니다. 일반적인 예로는 컴파일러 또는 숫자 계산 프로그램이 있습니다.
+두번째는, 상호작용 프로그램으로 (**프로그램이 주도하는 속도**)로 사용자 또는 다른 프로그램과 상호작용을 합니다. 사용자 관점에서 시분할 시스템은 상호작용 프로그램입니다.
+(**리액티브 프로그램**)은 주변 환경과 지속적으로 상호 작용하는데 (**프로그램이 주도하는 것이 아니라 환경이 변하면 이벤트를 받아 동작**)합니다.
+상호작용 프로그램은 자체 속도로 작동하며 대부분 통신을 처리하는 반면, 리액티브 프로그램은 외부 요구에 대응하여 작동하며 대부분 정확한 인터럽트 처리를 처리합니다.
+실시간 프로그램은 일반적으로 사후 대응적입니다. 그러나 프로토콜, 시스템 드라이버 또는 사람-기계 인터페이스 핸들러와 같이 일반적으로 실시간으로 간주되지 않는 반응형 프로그램이 있습니다.
+
+
+
+공부 방법
+1. Observable Class 명확히 이해!! (Hot Observable 과 Cold Observable 의 개념을 반드시 이해!!)
+2. 간단한 예제로 map(), filter(), reduce(), flatMap() 함수의 사용법 익힘
+3. 생성 연산자, 결합 연산자, 변환 연산자 등 카테고리별 주요 함수를 공부.
+4. 스케쥴러의 의미를 배우고 subscribeOn() 과 observeOn() 함수의 차이를 알아 둠.
+5. 그 밖의 디버깅, 흐름 제어 함수를 익힘
+
+
+
+------------------------------------------------
+2장 - Observable 처음 만들기
+
+Observable 은 데이터 흐름에 맞게 알림을 보내 구독자가 데이터를 처리할 수 있도록 함(RxJava는 Observable 에서 시작해 Observable로 끝난다고 해도 과언이 아닐정도의 개념임)
+RxJava1.x -> RxJava 2.x로 업데이트 되면서, Observable class 는 상황에 맞게 세분화해 각각 Observable, Maybe, Flowable class 로 구분해 사용
+Maybe Class 는 reduce() 함수나 firstElement() 함수와 같이 데이터가 발행될 수 있거나 혹은 발행되지 않고도 완료되는 경우를 의미
+Flowable class 는 Observable 에서 데이터가 발행되는 속도가 구독자가 처리하는 속도보다 현저하게 빠른 경우 발생하는 배압(flack pressure) 이슈에 대응하는 기능을 추가로 제공
+
+Observable 은 Observer pattern 을 구현
+Observer Pattern 이란 객체의 상태 변화를 관찰하는 관찰자(옵서버) 목록을 객체에 등록하고 상태 변화가 있을 때마다 메서드를 호출하여 객체가 직접 목록의 각 옵서버에게 변화를 알려줌
+라이프 사이클은 존재하지 않으며 보통 단일 함수를 통해 변화만 알림
+예를 들면, 사용자가 버튼을 누르면 버튼에 등록해 둔 onClick() 메서드를 호출해 원하는 처리를 하는 것이 "옵서버 패턴의 대표적인 예"
+
+RxJava의 observable은 세 가지 알림(onNext / onComplete / onError)을 구독자에게 전달
+
+Observable 은 just() 등의 팩토리 함수로 데이터 흐름을 정의한 후 subscribe() 함수를 호출해야 실제로 데이터를 발행
+
+**RxJava는 선언형 프로그래밍을지향(명령형 프로그래밍의 반대로, 어떤 방법(how)으로 동작하는지가 아닌 프로그래밍할 대상이 무억(what)인지 알려주는 것을 의미)
+
+
+
+
+
+
+Single class
+오직 1개의 데이터만 발행하도록 한정. 결과가 유일한 서버 API 를 호출할 때 유용하게 사용할 수 있음
+데이터 하나가 발행과 동시에 종료(onSuccess)된다는 점이 중요!!
+라이플 사이클은 onSuccess(T value) 함수와 onError() 함수로 구성(onNext() 와 onComplete() 함수가 onSuccess() 함수로 통합)
