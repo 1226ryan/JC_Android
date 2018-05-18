@@ -10,4 +10,4 @@ Introducing my career.
   - And now, i am studying Kotlin and refactoring "Memo", "Chat&Car" application to MVP pattern and clean code.
   
   
-  ## This repository is "test repository".
+## This repository is "test repository".
