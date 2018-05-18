@@ -1,5 +1,4 @@
-# JC_Android
-# Test Repository
+# JC_Android - Test Repository
 
 Introducing my career.
 
