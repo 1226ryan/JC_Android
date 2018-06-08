@@ -1,5 +1,0 @@
-package com.example.choo.app_chatting;
-
-public interface BaseVIew<T> {
-    void setPresenter(T presenter); // presenter 를 setPresenter 를 통해 View 에 전달하는 함수가 기본적으로 추가
-}

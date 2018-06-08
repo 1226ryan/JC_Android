@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\carpool2.jpg",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\carpool2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plus2.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\plus2.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.32.0.aar\\37e614a70d88ae7dd3d6836a428c0f25\\res\\drawable\\com_facebook_button_login_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bakho.jpg",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\bakho.jpg"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\facebook.jpg",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\facebook.jpg"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-share-4.32.0.aar\\c449051b32426275f30424f0f4e50bd0\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_circle_border.xml",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\img_circle_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_border.xml",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\image_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\carpool.jpg",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\carpool.jpg"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-share-4.32.0.aar\\c449051b32426275f30424f0f4e50bd0\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_button.xml",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\custom_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plus.jpg",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\plus.jpg"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-messenger-4.32.0.aar\\9606d2d42153ebb63a99d177d94f0e50\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-messenger-4.32.0.aar\\9606d2d42153ebb63a99d177d94f0e50\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\more2.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\more2.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-messenger-4.32.0.aar\\9606d2d42153ebb63a99d177d94f0e50\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.32.0.aar\\c69ce679ed1ab01d319c2cf171f1ff93\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\balloon_overlay_close.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\balloon_overlay_close.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.32.0.aar\\c69ce679ed1ab01d319c2cf171f1ff93\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\facebook2.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\facebook2.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.32.0.aar\\c69ce679ed1ab01d319c2cf171f1ff93\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.32.0.aar\\c69ce679ed1ab01d319c2cf171f1ff93\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-messenger-4.32.0.aar\\9606d2d42153ebb63a99d177d94f0e50\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\more.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\more.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\942725c6aeeff6d34c28a2eb84010d3b\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\basic.jpg",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\basic.jpg"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\942725c6aeeff6d34c28a2eb84010d3b\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\more3.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\more3.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.32.0.aar\\c69ce679ed1ab01d319c2cf171f1ff93\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\942725c6aeeff6d34c28a2eb84010d3b\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.32.0.aar\\37e614a70d88ae7dd3d6836a428c0f25\\res\\drawable\\com_facebook_button_login_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\datebg.9.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\datebg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\carpool3.jpg",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\carpool3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakaologin.jpg",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\kakaologin.jpg"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.32.0.aar\\37e614a70d88ae7dd3d6836a428c0f25\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inbox2.9.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\inbox2.9.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\942725c6aeeff6d34c28a2eb84010d3b\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.4.aar\\ee0154053e80242213df337730462e8a\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\outbox2.9.png",
+        "source": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\src\\main\\res\\drawable\\outbox2.9.png"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.32.0.aar\\c69ce679ed1ab01d319c2cf171f1ff93\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ac5f11db7619b8235e61d7a2dffdff0d\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\choo\\Documents\\JC_Android\\TestChatting\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "C:\\Users\\choo\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.32.0.aar\\c69ce679ed1ab01d319c2cf171f1ff93\\res\\drawable\\com_facebook_favicon_blue.xml"
+    }
+]
