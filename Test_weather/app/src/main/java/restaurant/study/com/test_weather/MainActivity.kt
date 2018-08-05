@@ -6,11 +6,13 @@ import android.util.Log
 import com.google.gson.JsonObject
 import kotlinx.android.synthetic.main.activity_main.*
 import android.graphics.BitmapFactory
-import android.graphics.Bitmap
 import android.os.Handler
 import android.widget.ImageView
 import java.net.URL
 
+/**
+ * Created by jc_chu on 2018. 08. 05..
+ */
 
 class MainActivity : AppCompatActivity() {
     private lateinit var stringWeather: String
@@ -31,9 +33,9 @@ class MainActivity : AppCompatActivity() {
                     val temperature = t.get("main").asJsonObject.get("temp").asFloat-273
                     val description = t.get("weather").asJsonArray.get(0).asJsonObject.get("description").asString
                     val icon = t.get("weather").asJsonArray.get(0).asJsonObject.get("icon").asString
-                    setImageView("http://openweathermap.org/img/w/$icon.png")
-
                     stringWeather = "cityName = $cityName \ntemperature = $temperature \ndescription = $description"
+
+                    setImageView("http://openweathermap.org/img/w/$icon.png")
                     main_tv.text = stringWeather
                 }
             }
@@ -44,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    private var handler = Handler()
+    private val handler = Handler()
     private fun setImageView(stringUrl: String) {
         val t = Thread(Runnable {
             try {
