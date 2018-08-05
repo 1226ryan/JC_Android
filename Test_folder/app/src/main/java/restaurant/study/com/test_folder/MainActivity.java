@@ -50,15 +50,19 @@ public class MainActivity extends AppCompatActivity {
         List<Item> list = getList();
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        if (tag.equalsIgnoreCase("Single")) {
-            adapterSingle = new SingleSelectionAdapter(this, list);
-            mRecyclerView.setAdapter(adapterSingle);
-        } else if (tag.equalsIgnoreCase("max")) {
-            adapterMultiMax = new MultiMaxSelectionAdapter(this, list);
-            mRecyclerView.setAdapter(adapterMultiMax);
-        } else if (tag.equalsIgnoreCase("multiple")) {
-            adapterMulti = new MultiSelectionAdapter(this, list);
-            mRecyclerView.setAdapter(adapterMulti);
+        switch (tag) {
+            case "Single":
+                adapterSingle = new SingleSelectionAdapter(this, list);
+                mRecyclerView.setAdapter(adapterSingle);
+                break;
+            case "max":
+                adapterMultiMax = new MultiMaxSelectionAdapter(this, list);
+                mRecyclerView.setAdapter(adapterMultiMax);
+                break;
+            case "multiple":
+                adapterMulti = new MultiSelectionAdapter(this, list);
+                mRecyclerView.setAdapter(adapterMulti);
+                break;
         }
     }
 
