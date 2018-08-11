@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".JavaActivity">
 
     <TextView
-        android:id="@+id/main_tv"
+        android:id="@+id/java_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -17,15 +17,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/main_iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/java_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@mipmap/ic_launcher_round"
-        app:layout_constraintLeft_toLeftOf="@+id/main_tv"
-        app:layout_constraintRight_toRightOf="@+id/main_tv"/>
+        app:layout_constraintLeft_toLeftOf="@+id/java_tv"
+        app:layout_constraintRight_toRightOf="@+id/java_tv"/>
 
     <Button
-        android:id="@+id/main_bt"
+        android:id="@+id/java_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="GPS"

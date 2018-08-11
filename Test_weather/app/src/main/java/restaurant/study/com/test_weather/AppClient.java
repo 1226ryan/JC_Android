@@ -33,11 +33,29 @@ public class AppClient {
 
     private AppApiService service = retrofit.create(AppApiService.class);
 
-    public void getWeatherCurrent(final ResultCallback<JsonObject> callback) {
+    public void getCurrentWeather(final ResultCallback<JsonObject> callback) {
         if (callback == null)
             throw new IllegalArgumentException("Call must not be null");
 
-        Call<JsonObject> call = service.getWeather("Seoul", "7005ccb9308e5d650f41449fb5b7f8e2");
+        Call<JsonObject> call = service.getCurrentWeather("Seoul", "7005ccb9308e5d650f41449fb5b7f8e2");
+        call.enqueue(new Callback<JsonObject>() {
+            @Override
+            public void onResponse(@NonNull Call<JsonObject> call, @NonNull Response<JsonObject> response) {
+                callback.onSuccess(response.body());
+            }
+
+            @Override
+            public void onFailure(@NonNull Call<JsonObject> call, @NonNull Throwable t) {
+                t.printStackTrace();
+            }
+        });
+    }
+
+    public void getFiveDaysWeather(final ResultCallback<JsonObject> callback) {
+        if (callback == null)
+            throw new IllegalArgumentException("Call must not be null");
+
+        Call<JsonObject> call = service.getFiveDaysWeather("Seoul", "7005ccb9308e5d650f41449fb5b7f8e2");
         call.enqueue(new Callback<JsonObject>() {
             @Override
             public void onResponse(@NonNull Call<JsonObject> call, @NonNull Response<JsonObject> response) {
