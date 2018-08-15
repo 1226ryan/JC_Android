@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         main_bt.setOnClickListener {
-            startActivity(Intent(this, JavaActivity::class.java))
+            startActivity(Intent(this, GpsActivity::class.java))
         }
     }
 }

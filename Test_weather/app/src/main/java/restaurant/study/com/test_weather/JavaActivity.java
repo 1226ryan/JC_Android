@@ -22,7 +22,6 @@ import java.io.InputStream;
 import java.lang.reflect.Type;
 import java.net.URL;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -49,14 +48,14 @@ public class JavaActivity extends AppCompatActivity {
     }
 
     private void setData() {
-        AppClient.getInstance().getCurrentWeather(new ResultCallback<JsonObject>() {
+        AppClient.getInstance().getCurrentWeather(this, new ResultCallback<JsonObject>() {
             @Override
             public void onSuccess(@Nullable JsonObject jsonObject) {
-                Log.i("getWeatherCurrent", "onSuccess t = "+jsonObject);
+                Log.i("getCurrentWeather", "onSuccess t = "+jsonObject);
                 if(jsonObject != null && jsonObject.get("cod").getAsString().equals("200")) {
-                    Log.i("getWeatherCurrent", "name = "+jsonObject.get("name").getAsString());
-                    Log.i("getWeatherCurrent", "main = "+jsonObject.get("main").getAsJsonObject().get("temp").getAsFloat());
-                    Log.i("getWeatherCurrent", "main = "+jsonObject.get("weather").getAsJsonArray().get(0).getAsJsonObject().get("description").getAsString());
+                    Log.i("getCurrentWeather", "name = "+jsonObject.get("name").getAsString());
+                    Log.i("getCurrentWeather", "main = "+jsonObject.get("main").getAsJsonObject().get("temp").getAsFloat());
+                    Log.i("getCurrentWeather", "main = "+jsonObject.get("weather").getAsJsonArray().get(0).getAsJsonObject().get("description").getAsString());
 
                     String cityName = jsonObject.get("name").getAsString();
                     Float temperature = jsonObject.get("main").getAsJsonObject().get("temp").getAsFloat()-273;
@@ -70,12 +69,12 @@ public class JavaActivity extends AppCompatActivity {
             }
             @Override
             public void onFailure(Throwable t) {
-                Log.e("getWeatherCurrent", "onFailure");
+                Log.e("getCurrentWeather", "onFailure");
                 t.printStackTrace();
             }
         });
 
-        AppClient.getInstance().getFiveDaysWeather(new ResultCallback<JsonObject>() {
+        AppClient.getInstance().getFiveDaysWeather(this, new ResultCallback<JsonObject>() {
             @Override
             public void onSuccess(@Nullable JsonObject jsonObject) {
                 Log.i("getFiveDaysWeather", "onSuccess jsonObject = "+jsonObject);

@@ -11,10 +11,17 @@ import retrofit2.http.Query;
  */
 
 public interface AppApiService {
+//    @GET("/data/2.5/weather")
+//    Call<JsonObject> getCurrentWeather(@Query("q") String cityName, @Query("appid") String apiKey);
+//
+//    @GET("/data/2.5/forecast")
+//    Call<JsonObject> getFiveDaysWeather(@Query("q") String cityName, @Query("appid") String apiKey);
+////            (@Query("lat") String lat, @Query("lon") String lon);
+
+
     @GET("/data/2.5/weather")
-    Call<JsonObject> getCurrentWeather(@Query("q") String cityName, @Query("appid") String apiKey);
+    Call<JsonObject> getCurrentWeather(@Query("lat") float lat, @Query("lon") float lon, @Query("appid") String apiKey);
 
     @GET("/data/2.5/forecast")
-    Call<JsonObject> getFiveDaysWeather(@Query("q") String cityName, @Query("appid") String apiKey);
-//            (@Query("lat") String lat, @Query("lon") String lon);
+    Call<JsonObject> getFiveDaysWeather(@Query("lat") float lat, @Query("lon") float lon, @Query("appid") String apiKey);
 }
