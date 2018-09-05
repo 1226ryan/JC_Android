@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">유니사이트</string>
+    <string name="refresh">새로고침</string>
+    <string name="support">요청하기</string>
+    <string name="weather">(날씨 정보)</string>
+    <string name="weather_detail">상세 날씨</string>
+    <string name="highlight_news">하이라이트 뉴스</string>
+    <string name="recommend_apps">추천 앱</string>
+</resources>
