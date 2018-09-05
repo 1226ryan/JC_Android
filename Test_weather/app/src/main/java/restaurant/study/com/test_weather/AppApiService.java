@@ -7,10 +7,21 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
- * Created by jc_chu on 2018. 08. 05..
+ * Created by jc_chu on 2018. 08. 11..
  */
 
 public interface AppApiService {
+//    @GET("/data/2.5/weather")
+//    Call<JsonObject> getCurrentWeather(@Query("q") String cityName, @Query("appid") String apiKey);
+//
+//    @GET("/data/2.5/forecast")
+//    Call<JsonObject> getFiveDaysWeather(@Query("q") String cityName, @Query("appid") String apiKey);
+////            (@Query("lat") String lat, @Query("lon") String lon);
+
+
     @GET("/data/2.5/weather")
-    Call<JsonObject> getWeather(@Query("q") String cityName, @Query("appid") String apiKey);
+    Call<JsonObject> getCurrentWeather(@Query("lat") float lat, @Query("lon") float lon, @Query("appid") String apiKey);
+
+    @GET("/data/2.5/forecast")
+    Call<JsonObject> getFiveDaysWeather(@Query("lat") float lat, @Query("lon") float lon, @Query("appid") String apiKey);
 }
